@@ -1,5 +1,4 @@
 import {NextFunction, Request, Response} from "express";
-import {LoggerService} from "../logger/logger.service";
 import {IExeptionFilter} from "./exeption.filter.interface";
 import {HTTPError} from "./http-error.class";
 import {inject, injectable} from "inversify";
